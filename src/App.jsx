@@ -1,7 +1,7 @@
-import React, { useState } from "react"
-import Header from "./Header";
-import CreateArea from "./CreateArea";
-import ItemsList from "./ItemList";
+import React, { useState } from "react";
+import Header from "./components/Header";
+import CreateArea from "./components/CreateAreaManager/CreateArea";
+import ItemsList from "./components/ListManager/ItemList";
 
 function App() {
   const [itemsArray, setItemsArray] = useState([]);
